@@ -27,6 +27,7 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+
 .bloc {
     width: 100%;
     clear: both;
@@ -422,6 +423,9 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    .col-sm-3{
+        width: 25%
+    }
 }
 
 .nav > li > .dropdown a {
@@ -538,7 +542,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -726,6 +730,12 @@ p {
     margin: auto auto auto auto;
 }
 
+#bloc-4-portfolio h2 {
+    width: 60%;
+    margin: auto;
+}
+
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -745,7 +755,11 @@ h3 {
 }
 
 h1 {
-    color: #ffffff!important;
+    color: #000000!important;
+    justify-content: center;
+    display: flex;
+    margin-left: 50px;
+
 }
 
 h4 {
@@ -850,10 +864,7 @@ h4 {
 }
 
 @media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -872,13 +883,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -896,10 +907,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -908,8 +916,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
