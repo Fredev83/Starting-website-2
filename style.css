@@ -305,8 +305,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 40px;
-    text-shadow: 0 0 10px black;
+    font-size: 32px;
+  
 }
 
 .navbar {
@@ -463,7 +463,6 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    text-shadow: 0 0 10px black;
 }
 
 .mg-lg {
@@ -733,6 +732,11 @@ p {
 #bloc-4-portfolio h2 {
     width: 60%;
     margin: auto;
+}
+
+#bloc-5-cta h2 {
+    text-shadow: 0 0 10px black;
+    color: #fff!important;
 }
 
 
