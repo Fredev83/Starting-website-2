@@ -5100,34 +5100,34 @@ textarea.input-group-sm>.input-group-btn>.btn {
         width: auto;
         border-top: 0;
         -webkit-box-shadow: none;
-        box-shadow: none
+        box-shadow: none;
     }
     .navbar-collapse.collapse {
         display: block !important;
         height: auto !important;
         padding-bottom: 0;
-        overflow: visible !important
+        overflow: visible !important;
     }
     .navbar-collapse.in {
-        overflow-y: visible
+        overflow-y: visible;
     }
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse,
     .navbar-static-top .navbar-collapse {
         padding-right: 0;
-        padding-left: 0
+        padding-left: 0;
     }
 }
 
 .navbar-fixed-bottom .navbar-collapse,
 .navbar-fixed-top .navbar-collapse {
-    max-height: 340px
+    max-height: 340px;
 }
 
 @media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
-        max-height: 200px
+        max-height: 200px;
     }
 }
 
@@ -5136,7 +5136,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .container>.navbar-collapse,
 .container>.navbar-header {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 @media (min-width:768px) {
@@ -5145,18 +5145,18 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .container>.navbar-collapse,
     .container>.navbar-header {
         margin-right: 0;
-        margin-left: 0
+        margin-left: 0;
     }
 }
 
 .navbar-static-top {
     z-index: 1000;
-    border-width: 0 0 1px
+    border-width: 0 0 1px;
 }
 
 @media (min-width:768px) {
     .navbar-static-top {
-        border-radius: 0
+        border-radius: 0;
     }
 }
 
@@ -5165,25 +5165,25 @@ textarea.input-group-sm>.input-group-btn>.btn {
     position: fixed;
     right: 0;
     left: 0;
-    z-index: 1030
+    z-index: 1030;
 }
 
 @media (min-width:768px) {
     .navbar-fixed-bottom,
     .navbar-fixed-top {
-        border-radius: 0
+        border-radius: 0;
     }
 }
 
 .navbar-fixed-top {
     top: 0;
-    border-width: 0 0 1px
+    border-width: 0 0 1px;
 }
 
 .navbar-fixed-bottom {
     bottom: 0;
     margin-bottom: 0;
-    border-width: 1px 0 0
+    border-width: 1px 0 0;
 }
 
 .navbar-brand {
@@ -5191,22 +5191,22 @@ textarea.input-group-sm>.input-group-btn>.btn {
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
-    line-height: 20px
+    line-height: 20px;
 }
 
 .navbar-brand:focus,
 .navbar-brand:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .navbar-brand>img {
-    display: block
+    display: block;
 }
 
 @media (min-width:768px) {
     .navbar>.container .navbar-brand,
     .navbar>.container-fluid .navbar-brand {
-        margin-left: -15px
+        margin-left: -15px;
     }
 }
 
@@ -5220,38 +5220,38 @@ textarea.input-group-sm>.input-group-btn>.btn {
     background-color: transparent;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 .navbar-toggle:focus {
-    outline: 0
+    outline: 0;
 }
 
 .navbar-toggle .icon-bar {
     display: block;
     width: 22px;
     height: 2px;
-    border-radius: 1px
+    border-radius: 1px;
 }
 
 .navbar-toggle .icon-bar+.icon-bar {
-    margin-top: 4px
+    margin-top: 4px;
 }
 
 @media (min-width:768px) {
     .navbar-toggle {
-        display: none
+        display: none;
     }
 }
 
 .navbar-nav {
-    margin: 7.5px -15px
+    margin: 7.5px -15px;
 }
 
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 20px
+    line-height: 20px;
 }
 
 @media (max-width:767px) {
@@ -5263,18 +5263,18 @@ textarea.input-group-sm>.input-group-btn>.btn {
         background-color: transparent;
         border: 0;
         -webkit-box-shadow: none;
-        box-shadow: none
+        box-shadow: none;
     }
     .navbar-nav .open .dropdown-menu .dropdown-header,
     .navbar-nav .open .dropdown-menu>li>a {
-        padding: 5px 15px 5px 25px
+        padding: 5px 15px 5px 25px;
     }
     .navbar-nav .open .dropdown-menu>li>a {
-        line-height: 20px
+        line-height: 20px;
     }
     .navbar-nav .open .dropdown-menu>li>a:focus,
     .navbar-nav .open .dropdown-menu>li>a:hover {
-        background-image: none
+        background-image: none;
     }
 }
 
